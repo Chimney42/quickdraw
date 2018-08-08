@@ -5,6 +5,7 @@ steps:
 - name: 'gcr.io/cloud-builders/npm'
   args: ['test']
   dir: 'functions/autodeploy'
+- name: 'ubuntu'
+  args: ['ls', '-lisah']
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['beta', 'functions', 'deploy', 'predict', '--trigger-http']
-  dir: 'functions/autodeploy'
+  args: ['beta', 'functions', 'deploy', 'quickdraw-predict', '--region=europe-west1', '--trigger-http']
