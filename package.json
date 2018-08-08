@@ -2,7 +2,7 @@
   "name": "quickdraw",
   "version": "1.0.0",
   "description": "clone of https://quickdraw.withgoogle.com/",
-  "main": "index.js",
+  "main": "functions/index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha ./tests/*.test.js"
   },
