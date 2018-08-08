@@ -1,0 +1,25 @@
+{
+  "name": "quickdraw",
+  "version": "1.0.0",
+  "description": "clone of https://quickdraw.withgoogle.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chimney42/quickdraw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chimney42/quickdraw/issues"
+  },
+  "homepage": "https://github.com/Chimney42/quickdraw#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.4",
+    "sinon-chai": "^3.2.0"
+  }
+}
